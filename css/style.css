@@ -10,13 +10,23 @@ ul {
 /* /mix */
 
 /* typo */
-
+h1 {
+  font-size: 100px;
+  color: black;
+  font-weight: bold;
+  padding-top: 30px;
+}
 /* /typo */
 
 /* header */
 /* navigazione superiore */
 .header_top {
   line-height: 60px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: white;
 }
 
 .main_nav, .secondary_nav {
@@ -79,11 +89,29 @@ ul {
 }
 /* /navigazione superiore */
 
+/* hero */
+.hero {
+  margin-top: 60px;
+}
+
+.hero .hero_img {
+  width: 100%;
+}
+/* /hero */
+
 
 /* /header */
 
 
 /* responsive */
+@media screen and (max-width: 1200px) {
+
+  h1 {
+    font-size: 80px;
+  }
+
+}
+
 @media screen and (max-width: 992px) {
 
   .main_nav, .secondary_nav {
@@ -94,4 +122,15 @@ ul {
     display: block;
   }
 
+  h1 {
+    font-size: 65px;
+  }
+
+
+}
+
+@media screen and (max-width: 600px) {
+  .hero .hero_img {
+    display: none;
+  }
 }
