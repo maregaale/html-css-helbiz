@@ -34,6 +34,10 @@ ul {
   margin-right: 30px;
 }
 
+.main_nav li a {
+  letter-spacing: 1px;
+}
+
 .header_top li a {
   color: black;
   text-decoration: none;
@@ -61,6 +65,7 @@ ul {
   color: white;
   background-color: black;
   padding: 10px 24px;
+  font-weight: bold;
 }
 /* /navigazione superiore */
 
