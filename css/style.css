@@ -25,6 +25,10 @@ h1 {
   font-weight: bold;
   padding-top: 30px;
 }
+
+p {
+  font-size: 18px;
+}
 /* /typo */
 
 /* header */
@@ -125,7 +129,6 @@ main {
 }
 
 .product_container p {
-  font-size: 18px;
   margin: 40px 0;
 }
 
@@ -140,6 +143,63 @@ main .product_container img {
   margin-top: 20px;
 }
 /* /sezione best products */
+
+/* sezione how */
+.how_up {
+  height: 500px;
+  width: 100%;
+  background-image: url("../img/banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.how_down_container {
+  margin: auto;
+  width: 70%;
+  position: relative;
+}
+
+.boxes_banner {
+  display: inline-block;
+  position: relative;
+  width: calc( 100% / 3 );
+  height: 200px;
+  vertical-align: bottom;
+}
+
+.boxes_banner img {
+  max-height: 510px;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.first_box {
+  left: calc(100% / 3);
+}
+
+.second_box {
+  right: calc(100% / 3);
+}
+
+
+.second_box, .third_box {
+  padding: 30px 45px;
+}
+
+.second_box h2 {
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+.third_box h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* /sezione how */
+
 /* /corpo del progetto */
 
 /* responsive */
