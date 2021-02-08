@@ -1,3 +1,68 @@
 body {
   font-family: 'Open Sans', sans-serif;
 }
+
+/* mix */
+ul {
+  margin-bottom: 0;
+  list-style: none;
+}
+/* /mix */
+
+/* typo */
+
+/* /typo */
+
+/* header */
+/* navigazione superiore */
+.header_top {
+  line-height: 60px;
+}
+
+.main_nav, .secondary_nav {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.header_top img {
+  height: 14px;
+}
+
+.header_top li {
+  margin-right: 30px;
+}
+
+.header_top li a {
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.header_top .secondary_nav button {
+  line-height: normal;
+  border: 0;
+  background-color: white;
+  border-left: 1px solid rgb(155, 155, 155);
+  border-right: 1px solid rgb(155, 155, 155);
+  padding: 0 8px;
+  margin-left: 20px;
+}
+
+.secondary_nav li {
+  margin-right: 0;
+}
+
+#login {
+  line-height: normal;
+  font-size: 13px;
+  text-transform: initial;
+  color: white;
+  background-color: black;
+  padding: 10px 24px;
+}
+/* /navigazione superiore */
+
+
+/* /header */
