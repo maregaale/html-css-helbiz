@@ -67,7 +67,31 @@ ul {
   padding: 10px 24px;
   font-weight: bold;
 }
+
+.menu {
+  display: none;
+}
+
+.menu i {
+  display: inline-block;
+  font-size: 20px;
+  padding: 10px;
+}
 /* /navigazione superiore */
 
 
 /* /header */
+
+
+/* responsive */
+@media screen and (max-width: 992px) {
+
+  .main_nav, .secondary_nav {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+  }
+
+}
