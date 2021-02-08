@@ -163,7 +163,6 @@ main .product_container img {
   display: inline-block;
   position: relative;
   width: calc( 100% / 3 );
-  height: 200px;
   vertical-align: bottom;
 }
 
@@ -177,6 +176,7 @@ main .product_container img {
 
 .first_box {
   left: calc(100% / 3);
+  height: 200px;
 }
 
 .second_box {
@@ -184,8 +184,12 @@ main .product_container img {
 }
 
 
-.second_box, .third_box {
-  padding: 30px 45px;
+.second_box {
+  padding: 0 20px 45px 20px;
+}
+
+.third_box {
+  padding: 0 40px 60px 50px;
 }
 
 .second_box h2 {
@@ -196,6 +200,7 @@ main .product_container img {
 .third_box h3 {
   font-size: 20px;
   font-weight: bold;
+  margin-bottom: 20px;
 }
 
 /* /sezione how */
@@ -225,7 +230,43 @@ main .product_container img {
     font-size: 65px;
   }
 
+  .how_down_container {
+    width: 100%;
+  }
 
+  .first_box {
+    width: 40%;
+  }
+
+  .second_box, .third_box {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .boxes_banner {
+    width: 100%;
+  }
+
+  .first_box, .second_box {
+    left: 0;
+  }
+
+  .first_box {
+    margin-bottom: 50px;
+  }
+
+  .second_box h2 {
+    font-size: 40px;
+  }
+
+  .third_box h3 {
+    font-size: 27px;
+  }
+
+  .third_box p {
+    font-size: 23px;
+  }
 }
 
 @media screen and (max-width: 600px) {
