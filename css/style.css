@@ -228,7 +228,7 @@ footer {
   margin-bottom: 40px;
 }
 
-.footer_up ul {
+.footer_up ul, .footer_down ul {
   padding: 0;
   list-style: none;
 }
@@ -240,6 +240,39 @@ footer {
 .footer_up ul a {
   color: white;
   font-size: 16px;
+}
+
+.footer_down {
+  margin-top: 100px;
+  padding-bottom: 70px;
+  line-height: 60px;
+}
+
+.footer_down ul a {
+  color: white;
+  font-size: 22px;
+}
+
+.footer_down .app a {
+  display: inline-block;
+  width: 115px;
+  height: 40px;
+  vertical-align: middle;
+}
+
+.app_store {
+  background-image: url("../img/app-store.svg");
+  background-repeat: no-repeat;
+}
+
+.google_play {
+  background-image: url("../img/google-play.svg");
+  background-repeat: no-repeat;
+}
+
+.app_gallery {
+  background-image: url("../img/app-gallery.svg");
+  background-repeat: no-repeat;
 }
 /* /footer */
 
