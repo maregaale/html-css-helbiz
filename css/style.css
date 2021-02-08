@@ -202,10 +202,47 @@ main .product_container img {
   font-weight: bold;
   margin-bottom: 20px;
 }
-
 /* /sezione how */
-
 /* /corpo del progetto */
+
+/* footer */
+footer {
+  background-color: black;
+  padding-top: 80px;
+  color: white;
+}
+
+.footer_up .white_logo {
+  height: 20px;
+}
+
+.footer_up h2 {
+  font-size: 42px;
+  font-weight: bold;
+  margin-top: 120px;
+}
+
+.footer_up h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.footer_up ul {
+  padding: 0;
+  list-style: none;
+}
+
+.footer_up ul li {
+  margin-bottom: 13px;
+}
+
+.footer_up ul a {
+  color: white;
+  font-size: 16px;
+}
+/* /footer */
+
 
 /* responsive */
 @media screen and (max-width: 1200px) {
@@ -241,6 +278,16 @@ main .product_container img {
   .second_box, .third_box {
     width: 30%;
   }
+
+  /* footer */
+  .service {
+    margin-bottom: 120px;
+  }
+
+  .footer_up h2 {
+    margin-bottom: 50px;
+    padding-right: 53%;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -266,6 +313,10 @@ main .product_container img {
 
   .third_box p {
     font-size: 23px;
+  }
+
+  .footer_up h2 {
+    font-size: 32px;
   }
 }
 
